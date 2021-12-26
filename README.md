@@ -1,21 +1,19 @@
-# Mountfolio
-My Personal Website Used as My Portfolio
-Still on Development!!!
-//////////
-<h1 align="center">Hi 👋, I'm Deepak</h1>
-<h3 align="center">A passionate Web developer from India</h3>
+🌴🚧 Under Development
+<h1 align="center">Mountfolio</h1>
+<p align="center">A Personal Portfolio Website</p>
+<h2 align="center">Hi 👋, I'm Deepak</h2>
+<h3 align="center">A Noob Web Developer</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=deepakpadhi986&label=Profile%20views&color=0e75b6&style=flat" alt="deepakpadhi986" /> </p>
 
 - 🍻 Made using **HTML5, CSS3, JavaScript & Open Source**
 
-- 📫 Let's have some coffee with bugs🙂 **deepakpadhi90058@gmail.com**
+- 📫 Let's have some coffee with bugs 🙂 **deepakpadhi90058@gmail.com**
 
-- 📄 Know about my experiences [Fresher at Web Development < 1 year (Experience)](Fresher at Web Development < 1 year (Experience))
+- 📄 Know about my experiences **Fresher at Web Development < 1 year (Experience)**
 
 - ⚡ Fun fact **I think I am Funny 🤔**
 
-<h3 align="left">Connect with me:</h3>
 <p align="left">
 </p>
 
