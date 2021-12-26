@@ -10,8 +10,7 @@
 
 - 📫 Let's have some coffee with bugs 🙂 **deepakpadhi90058@gmail.com**
 
-- 📄 Know about my experiences 
-     **Fresher at Web Development < 1 year (Experience)**
+- 📄 Know my experience **Fresher at Web Development < 1 year (Experience)**
 
 - ⚡ Fun fact **I think I am Funny 🤔**
 
