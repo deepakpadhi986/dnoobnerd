@@ -12,7 +12,7 @@
 
 - 📄 Know about my experience **Fresher at Web Development < 1 year (Experience)**
 
-- ⚡ Fun fact **I think I am Funny 🤔**
+- ⚡ Fun fact **I think I need to improve it 🤔**
 
 <p align="left">
 </p>
