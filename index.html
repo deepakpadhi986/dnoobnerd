@@ -1,317 +1,360 @@
-<!-- /* V2.1 Release 22/12/21 */ -->
+<!-- /* V3.1 Release 23/01/22 */ -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <!-- Meta Tags -->
+  <head>
+    <!-- META TAGS -->
+    <!-- Primary Meta Tags -->
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>Mountfolio - Personal Portfolio</title>
-    <meta name="format-detection" content="telephone=no" />
-    <meta name="msapplication-tap-highlight" content="no" />
-    <meta name="description" content="Mountfolio is a Personal Portfolio Website of Deepak made using different Web Technologies">
-    <meta name="keywords" content="Mountfolio, mountfolio, Mountfolio Portfolio, mountfolio portfolio,Mountfolio deepak,mountfolio deepak, Deepak Padhi, deepak padhi, personal portfolio, personal website, web developer portfolio, simple web developer portfolio, mountfolio github, backend developer, web developer, frontend developer, full stack developer, deepak's portfolio, mountfolio website, mountfolio deepak, mountfolio mumbai,Programmer,Programming,web app development,AWS,JavaScript,Nodejs,mumbai web developer, mountfolio deepak github, mountfolio github">
+    <!-- Title -->
+    <title>Mountfolio - A Personal Portfolio</title>
+    <meta name="title" content="Mountfolio - A Personal Portfolio">
+    <meta name="description" content="Mountfolio is a Personal Portfolio Website of Deepak Padhi">
+    <meta name="keywords" content="Mountfolio,mountfolio,Mountfolio Portfolio,mountfolio portfolio,mountfolio github,mountfolio website,mountfolio deepak,Mountfolio deepak,mountfolio deepak github,Deepak Padhi,deepak padhi,deepak padhi website,deepak padhi personal website,deepak padhi portfolio,deepak padhi portfolio website,web developer portfolio,simple web developer portfolio">
+    <meta name="robots" content="index, follow">
+    <!-- Open Graph / Facebook -->
     <meta property="og:locale" content="en_IN">
-    <meta property="og:type" content="service">
-    <meta property="og:title" content="Mountfolio - A Personal Portfolio">
-    <meta property="og:description" content="Personal Portfolio Website of Deepak Padhi">
+    <meta property="og:type" content="website">
     <meta property="og:url" content="https://mountfolio.netlify.app/">
+    <meta property="og:title" content="Mountfolio - A Personal Portfolio">
+    <meta property="og:description" content="Mountfolio is a Personal Portfolio Website of Deepak Padhi">
+    <meta property="og:image" content="https://raw.githubusercontent.com/deepakpadhi986/Mountfolio/main/images/metaimg.jpg">
+    <!-- <meta property="og:image" content="https://raw.githubusercontent.com/deepakpadhi986/Mountfolio/main/images/meta.jpg"> -->
     <meta property="og:site_name" content="Mountfolio">
-    <meta property="publisher" content="https://mountfolio.netlify.app/">
-    <meta property="tag" content="Mounfolio,Mountfolio Github,mountfolio,mountfolio github,mountfolio personal portfolio,mountfolio deepak github,mountfolio web developer portfolio,mountfolio deepak padhi,mountfolio portfolio">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://deepakpadhi986.github.io/">
-    <meta name="twitter:title" content="Mountfolio - A Personal Portfolio">
-    <meta name="twitter:description" content="Mountfolio is a key Personal Portfolio Website of Deepak Padhi">
+    <meta property="publisher" content="https://github.com/deepakpadhi986/Mountfolio">
+    <meta name="tag" content="Mountfolio,mountfolio,MountfolioPortfolio,mountfolioportfolio,mountfoliogithub,mountfoliowebsite">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://mountfolio.netlify.app/">
+    <meta property="twitter:title" content="Mountfolio - A Personal Portfolio">
+    <meta name="twitter:description" content="Mountfolio is a Personal Portfolio Website of Deepak Padhi">
+    <meta property="twitter:image" content="https://raw.githubusercontent.com/deepakpadhi986/Mountfolio/main/images/metaimg.jpg">
+    <!-- <meta property="twitter:image" content="https://raw.githubusercontent.com/deepakpadhi986/Mountfolio/main/images/meta.jpg"> -->
     <meta name="twitter:site" content="@DeepakP12478730">
     <meta itemprop="name" content="Mountfolio - A Personal Portfolio Website">
     <meta itemprop="description" content="Mountfolio is a key Personal Portfolio Website of Deepak">
-  <!-- add to homescreen for ios -->
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black" />              
-  <!-- Favicon -->
+    <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="favicon/site.webmanifest">
-  <!-- Fontawsome -->
+    <!-- Fontawsome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-  <!-- CSS -->
+    <!-- CSS -->
     <link rel="stylesheet" href="CSS/style.css">
-  <!-- Title -->
-<!--     <title>Mountfolio</title> -->
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CRQ2D84XCH"></script>
-  <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-CRQ2D84XCH');
-  </script>
-</head>
-<body class="light" id="top">
-  <!-- ######################################## HEADER ######################################## -->
-  <header class="header center">
-    <h1>
-      <a href="https://github.com/deepakpadhi986/Mountfolio" class="link">DP</a>
-    </h1>
-    
-    <!-- ######################################## NAVBAR ######################################## -->
-    <nav class="nav center">
-      <!-- LINKS -->
-      <ul class="nav__list center">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CRQ2D84XCH"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-CRQ2D84XCH');
+    </script>
+  </head>
+  <body class="light" id="top">
+    <!-- ######################################## HEADER ######################################## -->
+    <header class="header center">
+      <h1>
+        <a href="https://github.com/deepakpadhi986/Mountfolio" class="link">DP</a>
+      </h1>
+      
+      <!-- ######################################## NAVBAR ######################################## -->
+      <nav class="nav center">
+        <!-- LINKS -->
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#about">Home</a>
+          </li>
         
-        <li class="nav__list-item">
-          <a class="link link--nav" href="#projects">Projects</a>
-        </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
         
-        <li class="nav__list-item">
-          <a class="link link--nav" href="#skills">Skills</a>
-        </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#education">Education</a>
+          </li>
         
-        <li class="nav__list-item">
-          <a class="link link--nav" href="#contact">Contact</a>
-        </li>
-      </ul>
-      <!-- HAMBURGER -->
-      <button type="button" aria-label="toggle navigation" class="btn btn--icon nav__hamburger">
-        <i aria-hidden="true" class="fas fa-bars"></i>
-      </button>
-    </nav>
-  </header>
-  <!-- ######################################## MAIN ######################################## -->
-  <main>
-    <!-- WELCOME -->
-    <h1>Welcome to you all pro peeps!</h1>
-    <!-- NAME -->
-    <h1>I'm Deepak</h1>
-    <!-- ROLE -->
-    <h3>A <span class="web">Web</span> Developer</h3>
-    <!-- ABOUT ME -->
-    <img class="prof" src="images/pic.png" width="150px" alt="Mountfolio" title="Profile Picture">
-    <h2>About Me.</h2>
-    <p>JavaScript = First Love</p>
-    <p>Noob Web Developer Primarily focused on backend <br>& API's using Node.js</p>
-    <hr>
-    <!-- ######################################## SKILLS ######################################## -->
-    <div class="skills" id="skills">
-      <!-- heading -->
-      <h2>My Skills.</h2>
-      <!-- gif -->
-      <iframe src="https://giphy.com/embed/b5hr3wcYa7ifaW05Uh" width="100%" height="100%" frameBorder="0" alt="Mountfolio"></iframe>
-      <!-- programming languages -->
-      <div class="skill-row">
-        <h3 class="prlan">Programming Languages</h3>
-        <ul class="skills__list">
-          <li class="skills__list-item btn btn--plain">JavaScript</li>
-          <li class="skills__list-item btn btn--plain">Python</li>
-        </ul>
-      </div>
-      <!-- frontend -->
-      <div class="skill-row">
-        <h3>Frontend</h3>
-        <ul class="skills__list">
-          <li class="skills__list-item btn btn--plain">HTML5</li>
-          <li class="skills__list-item btn btn--plain">CSS</li>
-          <li class="skills__list-item btn btn--plain">Bootstrap</li>
-          <li class="skills__list-item btn btn--plain">Tailwind CSS</li>
-          <li class="skills__list-item btn btn--plain">React</li>
-        </ul>
-      </div>
-      <!-- backend -->
-      <div class="skill-row">
-        <h3> Backend</h3>
-        <ul class="skills__list">
-          <li class="skills__list-item btn btn--plain">Node.Js</li>
-          <li class="skills__list-item btn btn--plain">Express</li>
-          <li class="skills__list-item btn btn--plain">GraphQl</li>
-          <li class="skills__list-item btn btn--plain">NestJs</li>
-        </ul>
-      </div>
-      <!-- mobile development -->
-      <div class="skill-row">
-        <h3 class="prlan">Mobile Development</h3>
-        <ul class="skills__list">
-          <li class="skills__list-item btn btn--plain">React Native</li>
-        </ul>
-      </div>
-      <!-- Database -->
-      <div class="skill-row">
-        <h3>Database</h3>
-        <ul class="skills__list">
-          <li class="skills__list-item btn btn--plain">MongoDB</li>
-          <li class="skills__list-item btn btn--plain">MySQL</li>
-        </ul>
-      </div>
-      <!-- Data Visualization -->
-      <div class="skill-row">
-        <h3 class="prlan">Data Visualization</h3>
-        <ul class="skills__list">
-          <li class="skills__list-item btn btn--plain">Chart.js</li>
-        </ul>
-      </div>
-      <!-- Devops -->
-      <div class="skill-row">
-        <h3>Devops</h3>
-        <ul class="skills__list">
-          <li class="skills__list-item btn btn--plain">AWS</li>
-          <li class="skills__list-item btn btn--plain">Docker</li>
-          <li class="skills__list-item btn btn--plain">Google Cloud</li>
-          <li class="skills__list-item btn btn--plain">Azure</li>
-        </ul>
-      </div>
-      <!-- baas -->
-      <div class="skill-row">
-        <h3>Baas</h3>
-        <ul class="skills__list">
-          <li class="skills__list-item btn btn--plain">Heroku</li>
-          <li class="skills__list-item btn btn--plain">Firebase</li>
-        </ul>
-      </div>
-      <!-- framework -->
-      <div class="skill-row">
-        <h3>FrameWork</h3>
-        <ul class="skills__list">
-          <li class="skills__list-item btn btn--plain">Django</li>
-          <li class="skills__list-item btn btn--plain">Electron</li>
-        </ul>
-      </div>
-      <!-- others -->
-      <div class="skill-row">
-        <h3>Others</h3>
-        <ul class="skills__list">
-          <li class="skills__list-item btn btn--plain">Linux</li>
-          <li class="skills__list-item btn btn--plain">Git</li>
-          <li class="skills__list-item btn btn--plain">CLI</li>
-        </ul>
-      </div>
-    </div>
-    <hr>
-    <!-- ######################################## Working on education ######################################## -->
-    <!-- ######################################## PROJECTS ######################################## -->
-    <section id="projects" class="section projects">
-      <!-- PROJECT TITLE -->
-      <h2 class="section__title">Projects</h2>
-      <div class="projects__grid">
-        <!-- PROJECT 1 -->
-        <div class="project">
-          <!-- TITLE -->
-          <h3>Project 1</h3>
-          <!-- DESC -->
-          <p class="project__description">
-            Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
-            sapiente debitis labore sed ipsam Mollitia repellat illum quod<br>
-            <!-- read more -->
-            <a href="#" class="link">Read more..</a>
-          </p>
-          <!-- PROJECT STACK -->
-          <ul class="project__stack">
-            <li class="project__stack-item">SASS</li>
-            <li class="project__stack-item">TypeScript</li>
-            <li class="project__stack-item">React</li>
-          </ul>
-          <!-- GITHUB LINK -->
-          <a href="https://github.com" aria-label="source code" class="link link--icon">
-            <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
-          <!-- LIVE LINK -->
-          <a href="https://example.com" aria-label="live preview" class="link link--icon">
-            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-          </a>
-        </div>
-        <!-- PROJECT 2 -->
-        <div class="project">
-          <!-- TITLE -->
-          <h3>Project 2</h3>
-          <!-- DESC -->
-          <p class="project__description">
-            Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
-            sapiente debitis labore sed ipsam Mollitia repellat illum quod<br>
-            <!-- read more -->
-            <a href="#" class="link">Read more..</a>
-          </p>
-          <!-- PROJECT STACKS -->
-          <ul class="project__stack">
-            <li class="project__stack-item">SASS</li>
-            <li class="project__stack-item">TypeScript</li>
-            <li class="project__stack-item">React</li>
-          </ul>
-          <!-- GITHUB LINK -->
-          <a href="https://github.com" aria-label="source code" class="link link--icon">
-            <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
-          <!-- LIVE LINK -->
-          <a href="https://example.com" aria-label="live preview" class="link link--icon">
-            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-          </a>
-        </div>
-        <!-- PROJECT 3 -->
-        <div class="project">
-          <!-- TITLE -->
-          <h3>Project 3</h3>
-          <!-- DESC -->
-          <p class="project__description">
-            Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
-            sapiente debitis labore sed ipsam Mollitia repellat illum quod<br>
-            <!-- read more -->
-            <a href="#" class="link">Read more..</a>
-          </p>
-          <!-- PROJECT STACKS -->
-          <ul class="project__stack">
-            <li class="project__stack-item">SASS</li>
-            <li class="project__stack-item">TypeScript</li>
-            <li class="project__stack-item">React</li>
-          </ul>
-          <!-- GITHUB LINK -->
-          <a href="https://github.com" aria-label="source code" class="link link--icon">
-            <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
-          <!-- LIVE LINK -->
-          <a href="https://example.com" aria-label="live preview" class="link link--icon">
-            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-          </a>
-        </div>
-      </div>
-    </section>
-  </main>
-  <hr>
-  <div class="scroll-container">
-    <div class="scroll-top">
-      <a aria-label="Scroll up" href="#top">
-        <i aria-hidden="true" class="fas fa-arrow-up"></i>
-      </a>
-    </div>
-  </div>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Project</a>
+          </li>
 
-  <footer id="contact">
-    <h2>Get In Touch</h2>
-    <a class="contact-me-btn" href="mailto:deepakpadhi90058@gmail.com">CONTACT ME</a>
-    <!-- links -->
-    <p class="links">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <!-- HAMBURGER -->
+        <button type="button" aria-label="toggle navigation" class="btn btn--icon nav__hamburger">
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+    <!-- ######################################## MAIN ######################################## -->
+    <main>
+      <div id="about">
+        <!-- WELCOME -->
+        <h1>Welcome to you all pro peeps!</h1>
+        <!-- NAME -->
+        <h1>I'm Deepak</h1>
+        <!-- ROLE -->
+        <h3>A <span class="web">Web</span> Developer</h3>
+        <!-- ABOUT ME -->
+        <!-- <img src="images/try1.png" style="border-radius: 80px; width: 150px;" alt="Mountfolio" title="Profile Picture"> -->
+        <img src="images/try3.jpg" style="border-radius: 80px; width: 150px;" alt="Mountfolio" title="Profile Picture">
+        <!-- <img src="images/try2.jpg" style="border-radius: 80px; width: 150px;" alt="Mountfolio" title="Profile Picture"> -->
+        <h2>About Me.</h2>
+        <p>JavaScript = First Love</p>
+        <p>Noob Web Developer Primarily focused on backend <br>& API's using Node.js</p>
+      </div>
+      <hr>
+      <!-- ######################################## SKILLS ######################################## -->
+      <div class="skills" id="skills">
+        <!-- heading -->
+        <h2>My Skills.</h2>
+        <!-- gif -->
+        <!-- <iframe src="https://giphy.com/embed/b5hr3wcYa7ifaW05Uh" width="100%" height="100%" frameBorder="0" alt="Mountfolio"></iframe> -->
+        <!-- programming languages -->
+        <div class="skill-row">
+          <h3 class="prlan">Programming Languages</h3>
+          <ul class="skills__list">
+            <li class="skills__list-item btn btn--plain">JavaScript</li>
+            <li class="skills__list-item btn btn--plain">Python</li>
+            <li class="skills__list-item btn btn--plain">C#</li>
+          </ul>
+        </div>
+        <!-- frontend -->
+        <div class="skill-row">
+          <h3>Frontend</h3>
+          <ul class="skills__list">
+            <li class="skills__list-item btn btn--plain">HTML5</li>
+            <li class="skills__list-item btn btn--plain">CSS</li>
+            <li class="skills__list-item btn btn--plain">Bootstrap</li>
+            <li class="skills__list-item btn btn--plain">React</li>
+          </ul>
+        </div>
+        <!-- backend -->
+        <div class="skill-row">
+          <h3> Backend</h3>
+          <ul class="skills__list">
+            <li class="skills__list-item btn btn--plain">Node.Js</li>
+            <li class="skills__list-item btn btn--plain">GraphQl</li>
+            <li class="skills__list-item btn btn--plain">ASP.NET</li>
+            <li class="skills__list-item btn btn--plain">Django</li>
+          </ul>
+        </div>
+        <!-- Database -->
+        <div class="skill-row">
+          <h3>Database</h3>
+          <ul class="skills__list">
+            <li class="skills__list-item btn btn--plain">MongoDB</li>
+            <li class="skills__list-item btn btn--plain">MSSQL</li>
+            <li class="skills__list-item btn btn--plain">MySQL</li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <!-- ######################################## Working on education ######################################## -->
+      <section id="education" class="container education">
+        <h2>Education</h2>
+        <div class="education-topic">
+          <h3>Web Developer</h3>
+          <p class="education-item">2021 - Present | Learning</p>
+          <p class="education-detail">Working on Projects and Learning from official docs, udemy etc.. </p>
+        </div>
+        <div class="education-topic">
+          <h3>Kirti M Doongursee College Dadar (W)</h3>
+          <p class="education-item">2020 - Present | Bsc Computer Science</p>
+        </div>
+        <div class="education-topic">
+          <h3>Vidyanidhi Jr College of Science Juhu</h3>
+          <p class="education-item">2018 - 2020 | HSC 54.62%</p>
+        </div>
+        <div class="education-topic">
+          <h3>St Xavier's High School Vile Parle (W)</h3>
+          <p class="education-item">2008 - 2018 | SSC 62.20%</p>
+        </div>
+      </section>
+      <!-- ######################################## PROJECTS ######################################## -->
+      <section id="projects" class="section projects">
+        <!-- PROJECT TITLE -->
+        <h2 class="section__title">Projects</h2>
+        <div class="projects__grid">
+          <!-- PROJECT 1 -->
+          <div class="project">
+            <!-- TITLE -->
+            <h3>Dryfolio</h3>
+            <!-- DESC -->
+            <p class="project__description">
+              An Attempt to make a Simple resume Like Website.
+              working on updates <br>
+              <!-- read more -->
+              <a href="blogs/dryfolio.html" class="link">Read more..</a>
+            </p>
+            <!-- PROJECT STACK -->
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML5</li>
+              <li class="project__stack-item">CSS3</li>
+            </ul>
+            <!-- GITHUB LINK -->
+            <a href="https://github.com/deepakpadhi986/dryfolio" target="_blank" title="source code" class="link link--icon">
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <!-- LIVE LINK -->
+            <a href="https://deepakpadhi986.github.io/dryfolio/" target="_blank" title="live preview" class="link link--icon">
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <!-- PROJECT 2 -->
+          <div class="project">
+            <!-- TITLE -->
+            <h3>Project 2</h3>
+            <!-- DESC -->
+            <p class="project__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet.<br>
+              <!-- read more -->
+              <a href="#" class="link">Read more..</a>
+            </p>
+            <!-- PROJECT STACKS -->
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+            <!-- GITHUB LINK -->
+            <a href="https://github.com" aria-label="source code" class="link link--icon">
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <!-- LIVE LINK -->
+            <a href="https://example.com" aria-label="live preview" class="link link--icon">
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <!-- PROJECT 3 -->
+          <div class="project">
+            <!-- TITLE -->
+            <h3>Project 3</h3>
+            <!-- DESC -->
+            <p class="project__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet.<br>
+              <!-- read more -->
+              <a href="#" class="link">Read more..</a>
+            </p>
+            <!-- PROJECT STACKS -->
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+            <!-- GITHUB LINK -->
+            <a href="https://github.com" aria-label="source code" class="link link--icon">
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <!-- LIVE LINK -->
+            <a href="https://example.com" aria-label="live preview" class="link link--icon">
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <!-- PROJECT 4 -->
+          <div class="project">
+            <!-- TITLE -->
+            <h3>Project 4</h3>
+            <!-- DESC -->
+            <p class="project__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet.<br>
+              <!-- read more -->
+              <a href="#" class="link">Read more..</a>
+            </p>
+            <!-- PROJECT STACKS -->
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+            <!-- GITHUB LINK -->
+            <a href="https://github.com" aria-label="source code" class="link link--icon">
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <!-- LIVE LINK -->
+            <a href="https://example.com" aria-label="live preview" class="link link--icon">
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <!-- PROJECT 5 -->
+          <div class="project">
+            <!-- TITLE -->
+            <h3>Project 5</h3>
+            <!-- DESC -->
+            <p class="project__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet.<br>
+              <!-- read more -->
+              <a href="#" class="link">Read more..</a>
+            </p>
+            <!-- PROJECT STACKS -->
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+            <!-- GITHUB LINK -->
+            <a href="https://github.com" aria-label="source code" class="link link--icon">
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <!-- LIVE LINK -->
+            <a href="https://example.com" aria-label="live preview" class="link link--icon">
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <!-- PROJECT 6 -->
+          <div class="project">
+            <!-- TITLE -->
+            <h3>Project 6</h3>
+            <!-- DESC -->
+            <p class="project__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet.<br>
+              <!-- read more -->
+              <a href="#" class="link">Read more..</a>
+            </p>
+            <!-- PROJECT STACKS -->
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+            <!-- GITHUB LINK -->
+            <a href="https://github.com" aria-label="source code" class="link link--icon">
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <!-- LIVE LINK -->
+            <a href="https://example.com" aria-label="live preview" class="link link--icon">
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <hr>
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+    <footer id="contact">
+      <h2>Get In Touch</h2>
+      <a class="contact-me-btn" href="mailto:deepakpadhi90058@gmail.com">CONTACT ME</a>
+      <!-- links -->
+      <p class="links">
         <i class="fab fa-github"></i><a class="link" href="https://github.com/deepakpadhi986/"> Github</a>&nbsp;
         <i class="fab fa-instagram"></i><a class="link" href="https://instagram.com/deepakpadhi976?igshid=l3zz89pxk9i5"> Instagram</a>&nbsp;
         <i class="fab fa-linkedin"></i><a class="link" href="https://linkedin.com/"> Linkedin</a>
-    </p>
-    <!-- copywrite -->
-    <p>
-      <a href="https://github.com/deepakpadhi986/Mountfolio" class="link">© 2021 Deepak Padhi & Open Source</a>
-    </p>
-    <!-- site visitors -->
-    <p>Visitors <img src="https://hitwebcounter.com/counter/counter.php?page=7913215&style=0027&nbdigits=9&type=page&initCount=0" title="Free Counter" Alt="web counter" width="60px"  border="0" /></p>
-</footer>
-<script src="script.js"></script>
-<!-- Chatbot -->  
-<!--Start of Tawk.to Script-->
-<!-- <script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/61dc6a8cb84f7301d32a4aeb/1fp2g0dl1';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script> -->
-<!--End of Tawk.to Script-->
-</body>
+      </p>
+      <!-- copywrite -->
+      <p>
+        <a href="https://github.com/deepakpadhi986/Mountfolio" class="link">© 2021 Deepak Padhi & Open Source</a>
+      </p>
+      <!-- site visitors -->
+      <p>Visitors <img src="https://hitwebcounter.com/counter/counter.php?page=7913215&style=0027&nbdigits=9&type=page&initCount=0" title="Free Counter" Alt="web counter" width="60px"  border="0" /></p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
