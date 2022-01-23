@@ -1,9 +1,25 @@
-/* V2.1 Release 22/12/21 */
+/* V3.1 Release 23/01/22 */
 
 /* fonts (Patrick Hand + Amatic Sc+ Montserrat Alternates )*/
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Kaushan+Script&family=Merriweather:wght@300&family=Montserrat+Alternates:wght@300&family=Patrick+Hand&display=swap');
 
+/*====================Colors (Light Theme)=====================*/
+.light {
+    --clr-bg: #fcfcfc;
+    --clr-bg-alt: #fff;
+    --clr-fg: #555;
+    --clr-fg-alt: #444;
+    --clr-primary: #000B49;
+    --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+  
+::-moz-selection {
+    background: var(--clr-primary);
+    color: var(--clr-bg);
+}
+
 /*====================global styles=====================*/
+
 * {
     padding: 0;
     border: 0;
@@ -58,26 +74,9 @@ a,a:visited{
     text-decoration: none;
 }
 
-
-/*==========Editing===========*/
-
-/* light theme colors */
-.light {
-    --clr-bg: #fcfcfc;
-    --clr-bg-alt: #fff;
-    --clr-fg: #555;
-    --clr-fg-alt: #444;
-    --clr-primary: #000B49;
-    --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-  
-::-moz-selection {
-    background: var(--clr-primary);
-    color: var(--clr-bg);
-}
-
 /*===================buttons and links===================*/
-  
+
+/* NORMAL LINKS */
 .link {
     color: var(--clr-primary);
     padding: 0 0 0.3em 0;
@@ -103,10 +102,10 @@ a,a:visited{
 .link:focus::before {
     width: 100%;
 }
-  
+
+/* NAV LINKS */
 .link--nav {
     color: var(--clr-fg);
-    text-transform: lowercase;
     font-weight: 500;
 }
 
@@ -114,7 +113,8 @@ a,a:visited{
     color: var(--clr-fg);
     font-size: 1.2rem;
 }
-  
+
+/* BUTTON */
 .btn {
     display: block;
     padding: 0.8em 1.4em;
@@ -179,7 +179,7 @@ a,a:visited{
     transform: translateY(-5px);
 }
   
-/*===========layout===========*/
+/*===========HEADER LAYOUT (NAV PART)===========*/
   
 .center {
     display: flex;
@@ -187,7 +187,7 @@ a,a:visited{
 }
   
 .header {
-    height: 8em;
+    height: 6em;
     max-width: 1100px;
     width: 95%;
     margin: 0 auto;
@@ -208,11 +208,12 @@ a,a:visited{
     width: 1em;
 }
 
+/*===========PROJECTS LAYOUT===========*/
 .projects__grid {
-    max-width: 1100px;
-    margin: 0 auto;
+    max-width: 1000px;
+    margin: 0px auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
     grid-gap: 2em;
 }
   
@@ -249,7 +250,8 @@ a,a:visited{
 .project .link--icon {
     margin-left: 0.5em;
 }
-  
+
+/*===========SKILLS LAYOUT===========*/
 .skills__list {
     max-width: 450px;
     width: 95%;
@@ -263,6 +265,7 @@ a,a:visited{
     margin: 0.5em;
 }
 
+/*===========SCROLL TOP LAYOUT===========*/
 .scroll-top {
     display: none;
     position: fixed;
@@ -271,9 +274,67 @@ a,a:visited{
     background-color: transparent;
     font-size: 1.8rem;
     transition: transform 0.2s ease-in-out;
-  }
+}
 
+/*===========EDUCATION LAYOUT===========*/
+.education{
+    padding: 30px;
+    margin: 30px;
+    background-color: rgb(238, 251, 255);
+    border-radius: 20px;
+    text-align: left;
+}
+.education-topic{
+    padding: 10px;
+    border-left: 1px solid rgba(137, 130, 247, .2);
+}
+.container{
+    padding-left: 5%;
+    display: inline-block;
+}
+.education-item{
+    color: gray;
+}
 
+/* ===============Contents=============== */
+/* span */
+.web{
+    text-decoration: underline;
+}
+/* skill */
+.skill-row, .skills{
+    margin-top: 30px;
+}
+/* footer */
+footer p,h2{
+    padding: 10px;
+}
+
+/* ===============Contact Me Button=============== */
+.contact-me-btn {
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    color: #ffffff;
+    font-size: 12px;
+    background: #000B49;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    transition: transform 0.2s ease-in-out;
+}
+  
+.contact-me-btn:hover {
+    background: #064663;
+    background-image: -webkit-linear-gradient(top, #064663, #685ad6);
+    background-image: -moz-linear-gradient(top, #064663, #685ad6);
+    background-image: -ms-linear-gradient(top, #064663, #685ad6);
+    background-image: -o-linear-gradient(top, #064663, #685ad6);
+    background-image: linear-gradient(to bottom, #064663, #685ad6);
+    text-decoration: none;
+}
 
 /* ==============Image Animations================ */
 img {
@@ -305,46 +366,6 @@ img {
             transform: scale(1);
 }
 
-}
-
-/* ===============Contact Me Button=============== */
-.contact-me-btn {
-    -webkit-border-radius: 60;
-    -moz-border-radius: 60;
-    border-radius: 60px;
-    -webkit-box-shadow: 0px 1px 3px #666666;
-    -moz-box-shadow: 0px 1px 3px #666666;
-    box-shadow: 0px 1px 3px #666666;
-    color: #ffffff;
-    font-size: 12px;
-    background: #000B49;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-    transition: transform 0.2s ease-in-out;
-}
-  
-.contact-me-btn:hover {
-    background: #064663;
-    background-image: -webkit-linear-gradient(top, #064663, #685ad6);
-    background-image: -moz-linear-gradient(top, #064663, #685ad6);
-    background-image: -ms-linear-gradient(top, #064663, #685ad6);
-    background-image: -o-linear-gradient(top, #064663, #685ad6);
-    background-image: linear-gradient(to bottom, #064663, #685ad6);
-    text-decoration: none;
-}
-
-/* ===============Contents=============== */
-/* span */
-.web{
-    text-decoration: underline;
-}
-/* skill */
-.skill-row, .skills{
-    margin-top: 30px;
-}
-/* footer */
-footer p,h2{
-    padding: 10px;
 }
 
 /* ===============RESPONSIVE=============== */
@@ -381,11 +402,21 @@ footer p,h2{
     .prlan{
         font-size: medium;
     }
-
     
+    .projects__grid {
+        max-width: 300px;
+    }
     .scroll-top {
       bottom: 1em;
       right: 1em;
       font-size: 1rem;
+    }
+
+    .education-topic{
+        font-size: small;
+    }
+
+    .education-item{
+        font-size: smaller;
     }
 }
