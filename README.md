@@ -13,7 +13,7 @@
 
 - 📄 Know about my experience **Fresher at Web Development working on projects**
 
-- ⚡ Fun fact **Be You. Be Youtiful! 🤗**
+- 🤗 Fun fact **Be You. Be Youtiful!**
 
 <p align="left">
 </p>
