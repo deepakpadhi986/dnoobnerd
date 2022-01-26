@@ -11,7 +11,7 @@
 - 📫 Let's have some coffee with bugs 🙂 **deepakpadhi90058@gmail.com**
 
 - 📄 Know about my experience
--  <iframe src="https://giphy.com/embed/b5hr3wcYa7ifaW05Uh" width="100%" height="100%" frameBorder="0" alt="Mountfolio"></iframe>
+<img src="https://media0.giphy.com/media/b5hr3wcYa7ifaW05Uh/giphy.gif?cid=790b76113380b0c37af26087eeca91a73f51c41b3651618f&rid=giphy.gif&ct=g" width="100%" height="100%" frameBorder="0" alt="Mountfolio">
 -   **Fresher at Web Development working on projects**
 
 - ⚡ Fun fact **Be You. Be Youtiful! 🤗**
