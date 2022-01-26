@@ -1,6 +1,6 @@
 🌴🚧 Under Development
-<h1 align="center">Mountfolio</h1>
-<p align="center">A Personal Portfolio Website</p>
+<h1 align="center">dnoobnerd</h1>
+<p align="center">Deepak Padhi aka dnoobnerd Portfolio Repository.</p>
 <h2 align="center">Hi 👋, I'm Deepak</h2>
 <h3 align="center">A Noob Web Developer</h3>
 
@@ -10,9 +10,11 @@
 
 - 📫 Let's have some coffee with bugs 🙂 **deepakpadhi90058@gmail.com**
 
-- 📄 Know about my experience **Fresher at Web Development < 1 year (Experience)**
+- 📄 Know about my experience
+-  <iframe src="https://giphy.com/embed/b5hr3wcYa7ifaW05Uh" width="100%" height="100%" frameBorder="0" alt="Mountfolio"></iframe>
+-   **Fresher at Web Development working on projects**
 
-- ⚡ Fun fact **I think I need to improve it 🤔**
+- ⚡ Fun fact **Be You. Be Youtiful! 🤗**
 
 <p align="left">
 </p>
