@@ -2,7 +2,8 @@
 <h1 align="center">dnoobnerd</h1>
 <p align="center">Deepak Padhi aka dnoobnerd Portfolio Repository.</p>
 <h2 align="center">Hi 👋, I'm Deepak</h2>
-<h3 align="center">A Noob Web Developer</h3>
+<h3>A Noob Web Developer</h3>
+<img src="https://github.com/deepakpadhi986/dnoobnerd/raw/main/shaun.gif" alt="Mountfolio">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=deepakpadhi986&label=Profile%20views&color=0e75b6&style=flat" alt="deepakpadhi986" /> </p>
 
@@ -10,9 +11,7 @@
 
 - 📫 Let's have some coffee with bugs 🙂 **deepakpadhi90058@gmail.com**
 
-- 📄 Know about my experience
-<img src="https://media0.giphy.com/media/b5hr3wcYa7ifaW05Uh/giphy.gif?cid=790b76113380b0c37af26087eeca91a73f51c41b3651618f&rid=giphy.gif&ct=g" width="100%" height="100%" frameBorder="0" alt="Mountfolio">
--   **Fresher at Web Development working on projects**
+- 📄 Know about my experience **Fresher at Web Development working on projects**
 
 - ⚡ Fun fact **Be You. Be Youtiful! 🤗**
 
