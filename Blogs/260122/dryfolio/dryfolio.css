@@ -95,3 +95,15 @@ img {
     
     }
     
+    /* ===============RESPONSIVE=============== */
+    @media only screen and (max-width:70em) {
+        img{
+        width: 600px;
+    }
+    footer{
+        font-size: x-small;
+    }
+    p{
+        font-size: 8px;
+    }
+} 
