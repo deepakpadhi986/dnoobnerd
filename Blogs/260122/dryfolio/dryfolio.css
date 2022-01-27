@@ -8,7 +8,6 @@ html {
 body {
     text-align: center;
     margin: 10px;
-    width: auto;
     font-family: Zen Kurenaido;
     border-radius: 47px;
     background: #fcfcfd;
@@ -99,6 +98,12 @@ img {
     /* ===============RESPONSIVE=============== */
     @media only screen and (max-width:70em) {
         img{
-        width: 600px;
+        width: 200px;
+    }
+    footer{
+        font-size: x-small;
+    }
+    p{
+        font-size: 8px;
     }
 } 
