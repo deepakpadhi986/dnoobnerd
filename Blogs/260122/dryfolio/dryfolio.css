@@ -98,6 +98,6 @@ img {
     /* ===============RESPONSIVE=============== */
     @media only screen and (max-width:70em) {
         img{
-        width: 600px;
+        width: 300px;
     }
 } 
