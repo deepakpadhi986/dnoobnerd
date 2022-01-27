@@ -95,9 +95,3 @@ img {
     
     }
     
-    /* ===============RESPONSIVE=============== */
-    @media only screen and (max-width:70em) {
-        img{
-        width: 200px;
-    }
-} 
