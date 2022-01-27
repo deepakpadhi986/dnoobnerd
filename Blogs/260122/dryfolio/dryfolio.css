@@ -7,7 +7,8 @@ html {
 
 body {
     text-align: center;
-    margin: 20px;
+    margin: 10px;
+    width: auto;
     font-family: Zen Kurenaido;
     border-radius: 47px;
     background: #fcfcfd;
