@@ -1,8 +1,10 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4d9183ee-0caa-48ab-803a-a97fbce157ff/deploy-status)](https://app.netlify.com/sites/dnoobnerd/deploys)
 <img src="https://komarev.com/ghpvc/?username=deepakpadhi986&label=Profile%20views&color=0e75b6&style=flat" alt="deepakpadhi986" />
 <p>🌴🚧 Under Development</p>
+<h1>V 3.1 Nameवेdha</h1>
+<p>Previous has been sucked 🤬, because of new file structure 😔</p>
 <h1 align="center">dnoobnerd</h1>
-<p align="center">Deepak Padhi aka dnoobnerd Portfolio Repository.</p>
+<p align="center">Deepak Padhi aka dnoobnerd Portfolio.</p>
 <h2 align="center">Hi 👋, I'm Deepak</h2>
 <h3>A Noob Web Developer</h3>
 <img src="https://github.com/deepakpadhi986/dnoobnerd/raw/main/shaun.gif" alt="Mountfolio">
