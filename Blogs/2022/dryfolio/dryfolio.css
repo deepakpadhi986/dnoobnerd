@@ -1,0 +1,109 @@
+/* v 3.1 26/01/22 */
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    margin: 10px;
+    font-family: Zen Kurenaido;
+    border-radius: 47px;
+    background: #fcfcfd;
+    box-shadow:  -5px 5px 40px #656565,
+                5px -5px 40px #ffffff;
+}
+
+header {
+    background-color: #182C61;
+    color: white;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    text-align: center;
+    padding: 2px 0;
+    width: auto;
+}
+
+h2 {
+    color: #121a75;
+}
+
+h3 {
+    color: #191d42;
+}
+
+main {
+    width: auto;
+    padding: 25px;
+    color: #0a0d36;
+}
+
+img {
+    width: 600px;
+    border-radius: 12px;
+}
+
+footer {
+    background-color: #182C61;
+    color: white;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 25px; 
+}
+
+.foot, .foot:visited{
+    color: #fcfcfd;
+    text-decoration: underline;
+}
+ 
+a, a:visited {
+    color: #182C61;
+    text-decoration: underline;
+}
+/* ==============Image Animations================ */
+img {
+    -webkit-animation: img 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: img 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    }
+    
+    @-webkit-keyframes img {
+    0% {
+        -webkit-transform: scale(0.5);
+                transform: scale(0.5);
+    }
+    
+    100% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+    
+    }
+    
+    @keyframes img {
+    0% {
+        -webkit-transform: scale(0.5);
+                transform: scale(0.5);
+    }
+    
+    100% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+    
+    }
+    
+    /* ===============RESPONSIVE=============== */
+    @media only screen and (max-width:70em) {
+        img{
+        width: 200px;
+    }
+    footer{
+        font-size: x-small;
+    }
+    p{
+        font-size: 12px;
+    }
+} 
