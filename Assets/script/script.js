@@ -33,3 +33,7 @@ const scrollUp = () => {
 }
 
 document.addEventListener('scroll', scrollUp)
+
+function scrollToTop() {
+	window.scrollTo(0, 0);
+  }
